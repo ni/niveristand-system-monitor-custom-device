@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomDevice xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Custom Device.xsd">
+<XSDVersion Major="2010" Minor="0" Fix="0" Build="0" />
+  <AddMenu>
+    <eng>National Instruments::System Monitor</eng>
+    <loc>National Instruments::System Monitor</loc>
+  </AddMenu>
+  <Version>1.0.0</Version>
+  <Type>Inline HW Interface</Type>
+  <MaxOccurrence>1</MaxOccurrence>
+  <MainPageGUID>9c57ba26-991c-43a0-bc8f-8fe20f3ab37d</MainPageGUID>
+  <InitializationVI>
+    <Type>Action</Type>
+    <Item2Launch>
+      <Type>To Common Doc Dir</Type>
+		<Path>Custom Devices\System Monitor\Windows\System Monitor Configuration.llb\Initialization VI.vi</Path>
+    </Item2Launch>
+  </InitializationVI>
+  <CustomDeviceVI>
+		<SourceDistribution>
+			<Source>
+				<SupportedTarget>Windows</SupportedTarget>
+				<Source>
+					<Type>To Common Doc Dir</Type>
+					<Path>Custom Devices\System Monitor\Windows\System Monitor Engine Windows.llb\RT Driver VI.vi</Path>
+				</Source>
+				<RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\System Monitor\System Monitor Engine Windows.llb\RT Driver VI.vi</RealTimeSystemDestination>
+			</Source>
+			<Source>
+				<SupportedTarget>Pharlap</SupportedTarget>
+				<Source>
+					<Type>To Common Doc Dir</Type>
+					<Path>Custom Devices\System Monitor\PharLap\System Monitor Engine Pharlap.llb\RT Driver VI.vi</Path>
+				</Source>
+				<RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\System Monitor\System Monitor Engine Pharlap.llb\RT Driver VI.vi</RealTimeSystemDestination>
+			</Source>
+			<Source>
+				<SupportedTarget>VxWorks</SupportedTarget>
+				<Source>
+					<Type>To Common Doc Dir</Type>
+					<Path>Custom Devices\System Monitor\VxWorks\System Monitor Engine VxWorks.llb\RT Driver VI.vi</Path>
+				</Source>
+				<RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\System Monitor\System Monitor Engine VxWorks.llb\RT Driver VI.vi</RealTimeSystemDestination>
+			</Source>	
+			<Source>
+				<SupportedTarget>Linux_32_ARM</SupportedTarget>
+				<Source>
+					<Type>To Common Doc Dir</Type>
+					<Path>Custom Devices\System Monitor\Linux_32_ARM\System Monitor Engine LinuxARM.llb\RT Driver VI.vi</Path>
+				</Source>
+				<RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\System Monitor\System Monitor Engine LinuxARM.llb\RT Driver VI.vi</RealTimeSystemDestination>
+			</Source>
+			<Source>
+				<SupportedTarget>Linux_x64</SupportedTarget>
+				<Source>
+					<Type>To Common Doc Dir</Type>
+					<Path>Custom Devices\System Monitor\Linux_x64\System Monitor Engine Linux64.llb\RT Driver VI.vi</Path>
+				</Source>
+				<RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\System Monitor\System Monitor Engine Linux64.llb\RT Driver VI.vi</RealTimeSystemDestination>
+			</Source>
+		</SourceDistribution>
+	</CustomDeviceVI>
+  <Dependencies />
+  <Pages>
+    <Page>
+      <Name>
+        <eng>System Monitor</eng>
+        <loc>System Monitor</loc>
+      </Name>
+      <GUID>9c57ba26-991c-43a0-bc8f-8fe20f3ab37d</GUID>
+      <Glyph>
+			<Type>To Application Data Dir</Type>
+			<Path>System Explorer\Glyphs\default fpga category.png</Path>
+		</Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+		<Path>Custom Devices\System Monitor\Windows\System Monitor Configuration.llb\Main Page.vi</Path>
+      </Item2Launch>
+	  <RunTimeMenu>
+		<MenuItem>
+			<GUID>d9c304b8-bfae-4435-90b9-b99f5546d9c7</GUID>
+			<Type>Action</Type>
+			<Execution>silent</Execution>
+			<Name>
+				<eng>Export Configuration</eng>
+				<loc>Export Configuration</loc>
+			</Name>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\System Monitor\Windows\System Monitor Configuration.llb\Export Configuration RTM.vi</Path>
+			</Item2Launch>
+		</MenuItem>
+	  </RunTimeMenu>
+	  <ButtonList>
+			<Button>
+				<ID>d9c304b8-bfae-4435-90b9-b99f5546d9c7-Button</ID>
+				<Glyph>
+					<Type>To Application Data Dir</Type>
+					<Path>System Explorer\Glyphs\Export.png</Path>
+				</Glyph>
+				<Type>Action</Type>
+				<ReferencedGUID>d9c304b8-bfae-4435-90b9-b99f5546d9c7</ReferencedGUID>
+				<ButtonText>
+					<eng>Export Configuration</eng>
+					<loc>Export Configuration</loc>
+				</ButtonText>
+				<Caption>
+					<eng>Export Configuration</eng>
+					<loc>Export Configuration</loc>
+				</Caption>
+				<TipStrip>
+					<eng>Export Custom Device Configuration</eng>
+					<loc>Export Custom Device Configuration</loc>
+				</TipStrip>
+				<Documentation>
+					<eng>Export Custom Device Configuration</eng>
+					<loc>Export Custom Device Configuration</loc>
+				</Documentation>
+			</Button>
+	  </ButtonList>
+	  <ActionVIOnCompile>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\System Monitor\Windows\System Monitor Configuration.llb\ActionVIOnCompile.vi</Path>
+      </ActionVIOnCompile>
+    </Page>
+    
+<Page>
+      <Name>
+        <eng>Advanced</eng>
+        <loc>Advanced</loc>
+      </Name>
+      <GUID>85f74618-51ce-4e99-a8ac-e21873927867</GUID>
+      <Glyph>
+			<Type>To Application Data Dir</Type>
+			<Path>System Explorer\Glyphs\default fpga category.png</Path>
+		</Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+		<Path>Custom Devices\System Monitor\Windows\System Monitor Configuration.llb\Advanced.vi</Path>
+      </Item2Launch>
+    </Page>
+  </Pages>
+  <CustomXML>
+    <Dummy></Dummy>
+  </CustomXML>
+</CustomDevice>
