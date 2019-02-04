@@ -8,6 +8,11 @@ The NI VeriStand System Monitor can only be used on an RT Target. Running a Syst
 
 LabVIEW 2015
 
+## Dependencies
+
+- [NI VeriStand Addon Inline Async API](https://github.com/ni/niveristand-custom-device-inline-async-api)
+- [NI VeriStand Custom Device Testing Tools](https://github.com/ni/niveristand-custom-device-testing-tools)
+
 ## Git History & Rebasing Policy
 Branch rebasing and other history modifications will be listed here, with several notable exceptions:
 - Branches prefixed with `dev/` may be rebased, overwritten, or deleted at any time.
