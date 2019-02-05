@@ -123,22 +123,6 @@
         <Path>Custom Devices\System Monitor\Windows\System Monitor Configuration.llb\ActionVIOnCompile.vi</Path>
       </ActionVIOnCompile>
     </Page>
-    
-<Page>
-      <Name>
-        <eng>Advanced</eng>
-        <loc>Advanced</loc>
-      </Name>
-      <GUID>85f74618-51ce-4e99-a8ac-e21873927867</GUID>
-      <Glyph>
-			<Type>To Application Data Dir</Type>
-			<Path>System Explorer\Glyphs\default fpga category.png</Path>
-		</Glyph>
-      <Item2Launch>
-        <Type>To Common Doc Dir</Type>
-		<Path>Custom Devices\System Monitor\Windows\System Monitor Configuration.llb\Advanced.vi</Path>
-      </Item2Launch>
-    </Page>
   </Pages>
   <CustomXML>
     <Dummy></Dummy>
