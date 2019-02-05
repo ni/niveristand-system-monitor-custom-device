@@ -1,5 +1,8 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="15008000">
+	<Property Name="CCSymbols" Type="Str"></Property>
+	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
+	<Property Name="NI.Project.Description" Type="Str"></Property>
 	<Property Name="SMProvider.SMVersion" Type="Int">201310</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="IOScan.Faults" Type="Str"></Property>
@@ -27,6 +30,10 @@
 			<Item Name="Custom Device Utility Library.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device Tools/Custom Device Utility Library/Custom Device Utility Library.lvlib"/>
 		</Item>
 		<Item Name="Tests" Type="Folder">
+			<Property Name="NI.SortType" Type="Int">3</Property>
+			<Item Name="Unit" Type="Folder">
+				<Item Name="System Monitor Unit Tests.lvclass" Type="LVClass" URL="../Tests/Unit/System Monitor Unit Tests.lvclass"/>
+			</Item>
 			<Item Name="System" Type="Folder">
 				<Item Name="Assets" Type="Folder">
 					<Item Name="System Monitor.nivssdf" Type="Document" URL="../Tests/System/Assets/System Monitor.nivssdf"/>
