@@ -24,7 +24,7 @@
 					<Type>To Common Doc Dir</Type>
 					<Path>Custom Devices\System Monitor\Windows\System Monitor Engine Windows.llb\RT Driver VI.vi</Path>
 				</Source>
-				<RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\System Monitor\System Monitor Engine Windows.llb\RT Driver VI.vi</RealTimeSystemDestination>
+				<RealTimeSystemDestination>c:\ni-rt\NIVeriStand\Custom Devices\System Monitor\System Monitor Engine Windows.llb\RT Driver VI.vi</RealTimeSystemDestination>
 			</Source>
 			<Source>
 				<SupportedTarget>Pharlap</SupportedTarget>
@@ -32,7 +32,7 @@
 					<Type>To Common Doc Dir</Type>
 					<Path>Custom Devices\System Monitor\PharLap\System Monitor Engine Pharlap.llb\RT Driver VI.vi</Path>
 				</Source>
-				<RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\System Monitor\System Monitor Engine Pharlap.llb\RT Driver VI.vi</RealTimeSystemDestination>
+				<RealTimeSystemDestination>c:\ni-rt\NIVeriStand\Custom Devices\System Monitor\System Monitor Engine Pharlap.llb\RT Driver VI.vi</RealTimeSystemDestination>
 			</Source>
 			<Source>
 				<SupportedTarget>VxWorks</SupportedTarget>
@@ -40,7 +40,7 @@
 					<Type>To Common Doc Dir</Type>
 					<Path>Custom Devices\System Monitor\VxWorks\System Monitor Engine VxWorks.llb\RT Driver VI.vi</Path>
 				</Source>
-				<RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\System Monitor\System Monitor Engine VxWorks.llb\RT Driver VI.vi</RealTimeSystemDestination>
+				<RealTimeSystemDestination>c:\ni-rt\NIVeriStand\Custom Devices\System Monitor\System Monitor Engine VxWorks.llb\RT Driver VI.vi</RealTimeSystemDestination>
 			</Source>	
 			<Source>
 				<SupportedTarget>Linux_32_ARM</SupportedTarget>
@@ -48,7 +48,7 @@
 					<Type>To Common Doc Dir</Type>
 					<Path>Custom Devices\System Monitor\Linux_32_ARM\System Monitor Engine LinuxARM.llb\RT Driver VI.vi</Path>
 				</Source>
-				<RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\System Monitor\System Monitor Engine LinuxARM.llb\RT Driver VI.vi</RealTimeSystemDestination>
+				<RealTimeSystemDestination>c:\ni-rt\NIVeriStand\Custom Devices\System Monitor\System Monitor Engine LinuxARM.llb\RT Driver VI.vi</RealTimeSystemDestination>
 			</Source>
 			<Source>
 				<SupportedTarget>Linux_x64</SupportedTarget>
@@ -56,7 +56,7 @@
 					<Type>To Common Doc Dir</Type>
 					<Path>Custom Devices\System Monitor\Linux_x64\System Monitor Engine Linux64.llb\RT Driver VI.vi</Path>
 				</Source>
-				<RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\System Monitor\System Monitor Engine Linux64.llb\RT Driver VI.vi</RealTimeSystemDestination>
+				<RealTimeSystemDestination>c:\ni-rt\NIVeriStand\Custom Devices\System Monitor\System Monitor Engine Linux64.llb\RT Driver VI.vi</RealTimeSystemDestination>
 			</Source>
 		</SourceDistribution>
 	</CustomDeviceVI>
