@@ -12,14 +12,16 @@
 			<Item Name="Main Page.vi" Type="VI" URL="../Main Page.vi"/>
 		</Item>
 		<Item Name="SubVIs" Type="Folder">
+			<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 			<Item Name="Add All Channels.vi" Type="VI" URL="../Add All Channels.vi"/>
 			<Item Name="Add CPU Channels.vi" Type="VI" URL="../Add CPU Channels.vi"/>
 			<Item Name="Add Memory Channels.vi" Type="VI" URL="../Add Memory Channels.vi"/>
+			<Item Name="Get Channel References.vi" Type="VI" URL="../Get Channel References.vi"/>
 			<Item Name="Get System Monitor Settings.vi" Type="VI" URL="../Get System Monitor Settings.vi"/>
+			<Item Name="Load Help File.vi" Type="VI" URL="../Load Help File.vi"/>
 			<Item Name="Number of CPUs Dialog.vi" Type="VI" URL="../Number of CPUs Dialog.vi"/>
 			<Item Name="Set System Monitor Settings.vi" Type="VI" URL="../Set System Monitor Settings.vi"/>
 		</Item>
 		<Item Name="Types" Type="Folder"/>
 	</Item>
-	<Item Name="Get Channel References.vi" Type="VI" URL="../Get Channel References.vi"/>
 </Library>
