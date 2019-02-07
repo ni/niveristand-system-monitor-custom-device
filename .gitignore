@@ -15,5 +15,5 @@
 *.aliases
 *.lvlps
 
-# Built directory
-/Built
+# Output directory
+Built/

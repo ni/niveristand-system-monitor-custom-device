@@ -1,20 +1,23 @@
-# GitHub Repo Template
+# System Monitor Custom Device
 
-GitHub Repo Template is a template for creation of open source projects made
-available on GitHub. It includes a permissive open source license, a developer
-certificate of origin, and a pull request template. This provides everything
-necessary to have a properly licensed open source project.
+**System Monitor Custom Device** is a Custom Device that tracks memory resources and CPU usage on an RT Target running the VeriStand Engine.  Set the update rate (Hz) in the System Explorer to determine how often the custom device checks the CPU usage and memory resource values and sends them to the VeriStand Engine.
 
-## Using GitHub Repo Template
+The NI VeriStand System Monitor can only be used on an RT Target. Running a System Definition File targeted to localhost that contains an System Monitor Custom Device will produce an error.
 
-1. Clone or download this repository.
-2. Copy its contents into your project (including the hidden .github directory). 
-3. Customize each file to suit your project's needs (including the README). Look through the files for "TODO" and \<reponame\>, and replace with content appropriate to your project.
-4. (Optional) Check out [GitHub Template Guidelines](https://github.com/cezaraugusto/github-template-guidelines) for ideas about how to customize your project.
+## LabVIEW Version
+
+LabVIEW 2015
+
+## Dependencies
+
+- [NI VeriStand Addon Inline Async API](https://github.com/ni/niveristand-custom-device-inline-async-api)
+- [NI VeriStand Custom Device Testing Tools](https://github.com/ni/niveristand-custom-device-testing-tools)
 
 ## Git History & Rebasing Policy
-Branch rebasing and other history modifications will be lister here, with several notable exceptions:
+Branch rebasing and other history modifications will be listed here, with several notable exceptions:
 - Branches prefixed with `dev/` may be rebased, overwritten, or deleted at any time.
 - Pull requests may be squashed on merge.
 
-TODO: describe a project in detail, what it does, how to use it, etc.
+## License
+
+The NI Synchronization Custom Device is licensed under an MIT-style license (see LICENSE). Other incorporated projects may be licensed under different licenses. All licenses allow for non-commercial and commercial use.
