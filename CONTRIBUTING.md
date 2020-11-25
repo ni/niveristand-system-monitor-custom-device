@@ -56,5 +56,5 @@ adjacent to the system definition.
 
 (taken from [developercertificate.org](https://developercertificate.org/))
 
-See [LICENSE](https://github.com/ni/niveristand-system-monitor-custom-device/blob/master/LICENSE)
+See [LICENSE](https://github.com/ni/niveristand-system-monitor-custom-device/blob/main/LICENSE)
 for details about how niveristand-system-monitor-custom-device is licensed.
