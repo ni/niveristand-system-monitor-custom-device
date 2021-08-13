@@ -8,5 +8,5 @@ def lvVersions = ['2019', '2020']
 //  64 : ['2021']
 //]
 
-ni.vsbuild.PipelineExecutor.execute(this, 'vs_cd_build', lvVersions)
 diffPipeline(lvVersions[0])
+ni.vsbuild.PipelineExecutor.execute(this, 'vs_cd_build', lvVersions)
