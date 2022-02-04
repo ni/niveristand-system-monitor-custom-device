@@ -6,7 +6,7 @@ The NI VeriStand System Monitor can only be used on an RT Target. Running a Syst
 
 ## LabVIEW Version
 
-LabVIEW 2015
+LabVIEW 2019
 
 ## Dependencies
 
