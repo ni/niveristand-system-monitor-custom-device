@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="System definition.xsd">
 	<MD5Checksum />
-	<Version Major="2015" Minor="1" Fix="0" Build="0" />
+	<Version Major="2017" Minor="0" Fix="1" Build="0" />
 	<Content>Definition</Content>
 	<Root Name="System Monitor" TypeGUID="03D3BA22-1485-13A6-56BD17DA950CCD00">
 		<Description />
@@ -10,7 +10,7 @@
 				<String>System Monitor</String>
 			</Property>
 			<Property Name="Version">
-				<String>1.0.0.4</String>
+				<String>1.0.0.5</String>
 			</Property>
 			<Property Name="Creator">
 				<String />
@@ -28,10 +28,10 @@
 				<Description />
 				<Properties>
 					<Property Name="OS">
-						<String>PharLap</String>
+						<String>Linux_x64</String>
 					</Property>
 					<Property Name="IP Address">
-						<String>10.2.64.38</String>
+						<String>10.2.206.97</String>
 					</Property>
 					<Property Name="Control Loop Processor">
 						<I32>-2</I32>
@@ -176,6 +176,11 @@
 							<Errors />
 						</Section>
 					</Section>
+					<Section Name="SLSC" TypeGUID="3ea8ee87-daf4-4abc-a6e6-9c54a9452824">
+						<Description />
+						<Properties />
+						<Errors />
+					</Section>
 				</Section>
 				<Section Name="Custom Devices" TypeGUID="03D3BB79-1485-13A6-5605EB7AFD7405AC">
 					<Description />
@@ -191,57 +196,21 @@
 								<U32>1</U32>
 							</Property>
 							<Property Name="Driver VI Path_0">
-								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\Engine Simulation Toolkit\Engine Simulation Toolkit Engine Windows.llb\RT Driver VI.vi">
-									<Version>1.0.0</Version>
+								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\System Monitor\Linux_x64\System Monitor Engine Linux64.llb\RT Driver VI.vi">
+									<Version>1.1.0</Version>
 									<ForceDownload>false</ForceDownload>
-									<RTDestination>c:\ni-rt\VeriStand\Custom Devices\System Monitor\System Monitor Engine Linux64.llb\RT Driver VI.vi</RTDestination>
+									<RTDestination>c:\ni-rt\NIVeriStand\Custom Devices\System Monitor\System Monitor Engine Linux64.llb\RT Driver VI.vi</RTDestination>
 									<SupportedTarget>Linux_x64</SupportedTarget>
 									<MD5 />
 								</DependentFile>
 							</Property>
-							<Property Name="Driver VI Path_1">
-								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\Engine Simulation Toolkit\Engine Simulation Toolkit Engine Windows.llb\RT Driver VI.vi">
-									<Version>1.0.0</Version>
-									<ForceDownload>false</ForceDownload>
-									<RTDestination>c:\ni-rt\VeriStand\Custom Devices\System Monitor\System Monitor Engine LinuxARM.llb\RT Driver VI.vi</RTDestination>
-									<SupportedTarget>Linux_32_ARM</SupportedTarget>
-									<MD5 />
-								</DependentFile>
-							</Property>
-							<Property Name="Driver VI Path_2">
-								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\Engine Simulation Toolkit\Engine Simulation Toolkit Engine Windows.llb\RT Driver VI.vi">
-									<Version>1.0.0</Version>
-									<ForceDownload>false</ForceDownload>
-									<RTDestination>c:\ni-rt\VeriStand\Custom Devices\System Monitor\System Monitor Engine VxWorks.llb\RT Driver VI.vi</RTDestination>
-									<SupportedTarget>VxWorks</SupportedTarget>
-									<MD5 />
-								</DependentFile>
-							</Property>
-							<Property Name="Driver VI Path_3">
-								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\System Monitor\PharLap\System Monitor Engine Pharlap.llb\RT Driver VI.vi">
-									<Version>1.0.0</Version>
-									<ForceDownload>false</ForceDownload>
-									<RTDestination>c:\ni-rt\VeriStand\Custom Devices\System Monitor\System Monitor Engine Pharlap.llb\RT Driver VI.vi</RTDestination>
-									<SupportedTarget>PharLap</SupportedTarget>
-									<MD5 />
-								</DependentFile>
-							</Property>
-							<Property Name="Driver VI Path_4">
-								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\Engine Simulation Toolkit\Engine Simulation Toolkit Engine Windows.llb\RT Driver VI.vi">
-									<Version>1.0.0</Version>
-									<ForceDownload>false</ForceDownload>
-									<RTDestination>c:\ni-rt\VeriStand\Custom Devices\System Monitor\System Monitor Engine Windows.llb\RT Driver VI.vi</RTDestination>
-									<SupportedTarget>Windows</SupportedTarget>
-									<MD5 />
-								</DependentFile>
-							</Property>
 							<Property Name="Version">
-								<String>1.0.0</String>
+								<String>1.1.0</String>
 							</Property>
 							<Property Name="user.CD.System Monitor Settings">
 								<Variant>
 									<Type>AAAACgAUQDD/////C2RhdGEgc3RyaW5n</Type>
-									<Data>AAAAchUAgAAAAAADABlACAATTnVtYmVyIG9mIENQVSBDb3JlcwAXQAoAEFVwZGF0ZSBSYXRlIChIeikAACJAUAACAAAAARdTeXN0ZW0gTW9uaXRvciBTZXR0aW5ncwABAAIAAAAAAAAAAkAkAAAAAAAAAAAAAA==</Data>
+									<Data>AAAAchkAgAAAAAADABlACAATTnVtYmVyIG9mIENQVSBDb3JlcwAXQAoAEFVwZGF0ZSBSYXRlIChIeikAACJAUAACAAAAARdTeXN0ZW0gTW9uaXRvciBTZXR0aW5ncwABAAIAAAAAAAAAAkAkAAAAAAAAAAAAAA==</Data>
 								</Variant>
 							</Property>
 						</Properties>
@@ -894,16 +863,16 @@
 							<Elem>0</Elem>
 						</DefaultValue>
 					</Channel>
-					<Channel Name="System Reserved 41" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
-						<Description>Deprecated</Description>
+					<Channel Name="ASAM XIL EESPort Trigger" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="3">
+						<Description>Trigger the next EES Error Set from the EES Error Configuration.</Description>
 						<Properties />
 						<Errors />
 						<DefaultValue>
 							<Elem>0</Elem>
 						</DefaultValue>
 					</Channel>
-					<Channel Name="System Reserved 42" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
-						<Description>Deprecated</Description>
+					<Channel Name="ASAM XIL EESPort Trigger Count" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="3">
+						<Description>Count the number of EESPort Triggers.</Description>
 						<Properties />
 						<Errors />
 						<DefaultValue>
