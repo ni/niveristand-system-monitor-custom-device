@@ -5,7 +5,7 @@
     <eng>NI::System Monitor</eng>
     <loc>NI::System Monitor</loc>
   </AddMenu>
-  <Version>1.1.0</Version>
+  <Version>2021.0.0.0</Version>
   <Type>Inline HW Interface</Type>
   <MaxOccurrence>1</MaxOccurrence>
   <MainPageGUID>9c57ba26-991c-43a0-bc8f-8fe20f3ab37d</MainPageGUID>
@@ -44,7 +44,11 @@
         <Type>To Common Doc Dir</Type>
 		<Path>Custom Devices\System Monitor\Windows\System Monitor Configuration.llb\Main Page.vi</Path>
       </Item2Launch>
-	  <ActionVIOnCompile>
+      <ActionVIOnLoad>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\System Monitor\Windows\System Monitor Configuration.llb\ActionVIOnLoad.vi</Path>
+      </ActionVIOnLoad>
+      <ActionVIOnCompile>
         <Type>To Common Doc Dir</Type>
         <Path>Custom Devices\System Monitor\Windows\System Monitor Configuration.llb\ActionVIOnCompile.vi</Path>
       </ActionVIOnCompile>
