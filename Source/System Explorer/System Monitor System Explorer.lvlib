@@ -19,6 +19,7 @@
 			<Item Name="Get System Monitor Settings.vi" Type="VI" URL="../Get System Monitor Settings.vi"/>
 			<Item Name="Load Help File.vi" Type="VI" URL="../Load Help File.vi"/>
 			<Item Name="Number of CPUs Dialog.vi" Type="VI" URL="../Number of CPUs Dialog.vi"/>
+			<Item Name="Remove All Channels.vi" Type="VI" URL="../Remove All Channels.vi"/>
 			<Item Name="Set System Monitor Settings.vi" Type="VI" URL="../Set System Monitor Settings.vi"/>
 		</Item>
 		<Item Name="Types" Type="Folder"/>
