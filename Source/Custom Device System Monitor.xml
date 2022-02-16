@@ -13,21 +13,21 @@
     <Type>Action</Type>
     <Item2Launch>
       <Type>To Common Doc Dir</Type>
-      <Path>Custom Devices\System Monitor\Windows\System Monitor Configuration.llb\Initialization VI.vi</Path>
+		<Path>Custom Devices\System Monitor\Windows\System Monitor Configuration.llb\Initialization VI.vi</Path>
     </Item2Launch>
   </InitializationVI>
   <CustomDeviceVI>
-    <SourceDistribution>
-      <Source>
-        <SupportedTarget>Linux_x64</SupportedTarget>
-        <Source>
-          <Type>To Common Doc Dir</Type>
-          <Path>Custom Devices\System Monitor\Linux_x64\System Monitor Engine Linux64.llb\RT Driver VI.vi</Path>
-        </Source>
-        <RealTimeSystemDestination>c:\ni-rt\NIVeriStand\Custom Devices\System Monitor\System Monitor Engine Linux64.llb\RT Driver VI.vi</RealTimeSystemDestination>
-      </Source>
-    </SourceDistribution>
-  </CustomDeviceVI>
+		<SourceDistribution>
+			<Source>
+				<SupportedTarget>Linux_x64</SupportedTarget>
+				<Source>
+					<Type>To Common Doc Dir</Type>
+					<Path>Custom Devices\System Monitor\Linux_x64\System Monitor Engine Linux64.llb\RT Driver VI.vi</Path>
+				</Source>
+				<RealTimeSystemDestination>c:\ni-rt\NIVeriStand\Custom Devices\System Monitor\System Monitor Engine Linux64.llb\RT Driver VI.vi</RealTimeSystemDestination>
+			</Source>
+		</SourceDistribution>
+	</CustomDeviceVI>
   <Dependencies />
   <Pages>
     <Page>
@@ -37,17 +37,24 @@
       </Name>
       <GUID>9c57ba26-991c-43a0-bc8f-8fe20f3ab37d</GUID>
       <Glyph>
-        <Type>To Application Data Dir</Type>
-        <Path>System Explorer\Glyphs\default fpga category.png</Path>
-      </Glyph>
+			<Type>To Application Data Dir</Type>
+			<Path>System Explorer\Glyphs\default fpga category.png</Path>
+		</Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\System Monitor\Windows\System Monitor Configuration.llb\Main Page.vi</Path>
+		<Path>Custom Devices\System Monitor\Windows\System Monitor Configuration.llb\Main Page.vi</Path>
       </Item2Launch>
+      <ActionVIOnLoad>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\System Monitor\Windows\System Monitor Configuration.llb\ActionVIOnLoad.vi</Path>
+      </ActionVIOnLoad>
       <ActionVIOnCompile>
         <Type>To Common Doc Dir</Type>
         <Path>Custom Devices\System Monitor\Windows\System Monitor Configuration.llb\ActionVIOnCompile.vi</Path>
       </ActionVIOnCompile>
     </Page>
   </Pages>
+  <CustomXML>
+    <Dummy></Dummy>
+  </CustomXML>
 </CustomDevice>

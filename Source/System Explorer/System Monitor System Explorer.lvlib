@@ -7,6 +7,7 @@
 	<Item Name="System Explorer" Type="Folder">
 		<Item Name="Dynamically Called" Type="Folder">
 			<Item Name="ActionVIOnCompile.vi" Type="VI" URL="../ActionVIOnCompile.vi"/>
+			<Item Name="ActionVIOnLoad.vi" Type="VI" URL="../ActionVIOnLoad.vi"/>
 			<Item Name="Initialization VI.vi" Type="VI" URL="../Initialization VI.vi"/>
 			<Item Name="Main Page.vi" Type="VI" URL="../Main Page.vi"/>
 		</Item>
@@ -17,7 +18,9 @@
 			<Item Name="Add Memory Channels.vi" Type="VI" URL="../Add Memory Channels.vi"/>
 			<Item Name="Get Channel References.vi" Type="VI" URL="../Get Channel References.vi"/>
 			<Item Name="Get System Monitor Settings.vi" Type="VI" URL="../Get System Monitor Settings.vi"/>
+			<Item Name="Get XML Custom Device Version.vi" Type="VI" URL="../Get XML Custom Device Version.vi"/>
 			<Item Name="Load Help File.vi" Type="VI" URL="../Load Help File.vi"/>
+			<Item Name="Mutate Settings and Memory Channel.vi" Type="VI" URL="../Mutate Settings and Memory Channel.vi"/>
 			<Item Name="Number of CPUs Dialog.vi" Type="VI" URL="../Number of CPUs Dialog.vi"/>
 			<Item Name="Remove All Channels.vi" Type="VI" URL="../Remove All Channels.vi"/>
 			<Item Name="Set System Monitor Settings.vi" Type="VI" URL="../Set System Monitor Settings.vi"/>
