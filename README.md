@@ -4,6 +4,10 @@ The **System Monitor Custom Device** tracks memory resources and CPU usage on an
 
 The System Monitor Custom Device can only be used on an RT Target. Deploying a System Definition File that contains an System Monitor Custom Device will produce an error when targeting a Windows system.
 
+## Using the Custom Device
+
+- Download the latest release of the VeriStand Custom Devices on [ni.com](https://www.ni.com/en-us/support/downloads/software-products/download.veristand-custom-devices.html) or manually from the [GitHub Releases page](https://github.com/ni/niveristand-system-monitor-custom-device/releases)
+
 ## LabVIEW Source Code Version
 
 LabVIEW 2019
