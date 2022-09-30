@@ -19,7 +19,9 @@ LabVIEW 2019
 - [LabVIEW 2019 or later](https://www.ni.com/en-us/support/downloads/software-products/download.labview.html)
 - [LabVIEW Real-Time Module](https://www.ni.com/en-us/support/downloads/software-products/download.labview-real-time-module.html)
 - [VeriStand Custom Device Development Tools](https://github.com/ni/niveristand-custom-device-development-tools)
+  - Install the latest package from the [release page](https://github.com/ni/niveristand-custom-device-development-tools/releases)
 - [VeriStand Custom Device Testing Tools](https://github.com/ni/niveristand-custom-device-testing-tools)
+  - Install the latest package from the [release page](https://github.com/ni/niveristand-custom-device-testing-tools/releases)
 
 ## Git History & Rebasing Policy
 Branch rebasing and other history modifications will be listed here, with several notable exceptions:
