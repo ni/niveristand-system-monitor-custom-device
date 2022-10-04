@@ -10,7 +10,7 @@
 				<String>System Monitor</String>
 			</Property>
 			<Property Name="Version">
-				<String>1.0.0.5</String>
+				<String>1.0.0.6</String>
 			</Property>
 			<Property Name="Creator">
 				<String />
@@ -205,13 +205,13 @@
 								</DependentFile>
 							</Property>
 							<Property Name="Version">
-								<String>1.1.0</String>
+								<String>2021.0.0.0</String>
 							</Property>
-							<Property Name="user.CD.System Monitor Settings">
-								<Variant>
-									<Type>AAAACgAUQDD/////C2RhdGEgc3RyaW5n</Type>
-									<Data>AAAAchkAgAAAAAADABlACAATTnVtYmVyIG9mIENQVSBDb3JlcwAXQAoAEFVwZGF0ZSBSYXRlIChIeikAACJAUAACAAAAARdTeXN0ZW0gTW9uaXRvciBTZXR0aW5ncwABAAIAAAAAAAAAAkAkAAAAAAAAAAAAAA==</Data>
-								</Variant>
+							<Property Name="user.CD.Number of CPU Cores">
+								<U32>2</U32>
+							</Property>
+							<Property Name="user.CD.Update Rate (Hz)">
+								<Double>10</Double>
 							</Property>
 						</Properties>
 						<Errors />
@@ -382,14 +382,6 @@
 								</DefaultValue>
 							</Channel>
 							<Channel Name="Available" TypeGUID="03D3BB99-1485-13A6-561D1F898F032919" RowDim="1" ColDim="1" Units="bytes" BitFields="1">
-								<Description />
-								<Properties />
-								<Errors />
-								<DefaultValue>
-									<Elem>0</Elem>
-								</DefaultValue>
-							</Channel>
-							<Channel Name="Largest Contiguous" TypeGUID="03D3BB99-1485-13A6-561D1F898F032919" RowDim="1" ColDim="1" Units="bytes" BitFields="1">
 								<Description />
 								<Properties />
 								<Errors />
