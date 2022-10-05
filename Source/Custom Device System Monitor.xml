@@ -5,7 +5,7 @@
     <eng>NI::System Monitor</eng>
     <loc>NI::System Monitor</loc>
   </AddMenu>
-  <Version>2021.0.0.0</Version>
+  <Version>2021.3.0.0</Version>
   <Type>Inline HW Interface</Type>
   <MaxOccurrence>1</MaxOccurrence>
   <MainPageGUID>9c57ba26-991c-43a0-bc8f-8fe20f3ab37d</MainPageGUID>

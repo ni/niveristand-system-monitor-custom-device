@@ -15,6 +15,7 @@
 			<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 			<Item Name="Add All Channels.vi" Type="VI" URL="../Add All Channels.vi"/>
 			<Item Name="Add CPU Channels.vi" Type="VI" URL="../Add CPU Channels.vi"/>
+			<Item Name="Add CPU Overall Channels.vi" Type="VI" URL="../Add CPU Overall Channels.vi"/>
 			<Item Name="Add Memory Channels.vi" Type="VI" URL="../Add Memory Channels.vi"/>
 			<Item Name="Get Channel References.vi" Type="VI" URL="../Get Channel References.vi"/>
 			<Item Name="Get System Monitor Settings.vi" Type="VI" URL="../Get System Monitor Settings.vi"/>
