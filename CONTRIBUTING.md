@@ -1,3 +1,5 @@
+DON'T SUBMIT THIS CHANGE
+
 # Contributing to niveristand-system-monitor-custom-device
 
 Contributions to niveristand-system-monitor-custom-device are welcome from all!
