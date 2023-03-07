@@ -35,8 +35,7 @@ stages:
           target: 'All'
           buildSpec: 'Engine Release'
 
-      releaseVersion: '23.0.0'
-      quarterlyReleaseVersion: '2023 Q1'
+      releaseVersion: '23.3.0'
       buildOutputLocation: 'Built'
       archiveLocation: '\\nirvana\Measurements\VeriStandAddons\prototype\ni_system_monitor_custom_device'
 
