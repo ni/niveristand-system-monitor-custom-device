@@ -37,7 +37,7 @@ stages:
 
       releaseVersion: '23.3.0'
       buildOutputLocation: 'Built'
-      archiveLocation: '\\nirvana\Measurements\VeriStandAddons\prototype\ni_system_monitor_custom_device'
+      archiveLocation: '\\nirvana\Measurements\VeriStandAddons\ni_system_monitor_custom_device'
 
       packages:
         - controlFileName: 'control'
