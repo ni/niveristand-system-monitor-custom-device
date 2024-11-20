@@ -543,7 +543,7 @@
 				<Property Name="Source[2].properties[3].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[2].properties[3].value" Type="Bool">false</Property>
 				<Property Name="Source[2].properties[4].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[2].properties[4].value" Type="Bool">true</Property>
+				<Property Name="Source[2].properties[4].value" Type="Bool">false</Property>
 				<Property Name="Source[2].propertiesCount" Type="Int">5</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].type" Type="Str">Container</Property>
@@ -553,7 +553,7 @@
 				<Property Name="Source[3].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[3].properties[0].value" Type="Bool">true</Property>
 				<Property Name="Source[3].properties[1].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[3].properties[1].value" Type="Bool">true</Property>
+				<Property Name="Source[3].properties[1].value" Type="Bool">false</Property>
 				<Property Name="Source[3].properties[2].type" Type="Str">Run when opened</Property>
 				<Property Name="Source[3].properties[2].value" Type="Bool">false</Property>
 				<Property Name="Source[3].properties[3].type" Type="Str">Allow debugging</Property>
@@ -568,7 +568,7 @@
 				<Property Name="Source[4].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[4].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[4].properties[1].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[4].properties[1].value" Type="Bool">true</Property>
+				<Property Name="Source[4].properties[1].value" Type="Bool">false</Property>
 				<Property Name="Source[4].properties[2].type" Type="Str">Run when opened</Property>
 				<Property Name="Source[4].properties[2].value" Type="Bool">false</Property>
 				<Property Name="Source[4].properties[3].type" Type="Str">Allow debugging</Property>
