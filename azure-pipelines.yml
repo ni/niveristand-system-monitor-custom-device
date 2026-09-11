@@ -76,16 +76,22 @@ stages:
         buildOperation: 'ExecuteBuildSpec'
         target: 'My Computer'
         buildSpec: 'Configuration(Linux) Debug'
+        copyDependencies:
+          - source: 'System Monitor/Linux_x64'
+            destination: 'System Monitor/Linux_x64' 
 
       - id: 'system-monitor-custom-device_release'
         projectLocation: 'Source/System Monitor Custom Device.lvproj'
         buildOperation: 'ExecuteBuildSpec'
         target: 'My Computer'
         buildSpec: 'Configuration(Linux) Release'
+        copyDependencies:
+          - source: 'System Monitor/Linux_x64'
+            destination: 'System Monitor/Linux_x64' 
       
     releaseVersion: '26.5.0'
     branch: 'main'
     debugBuild: 'no'
     buildOutputLocation: 'Built'
-    archiveLocation: '\\nirvana\Measurements\VeriStandAddons\system_monitor_custom_device'
+    archiveLocation: '\\nirvana\Measurements\VeriStandAddons\ni_system_monitor_custom_device'
     repoName: 'niveristand-system-monitor-custom-device'
