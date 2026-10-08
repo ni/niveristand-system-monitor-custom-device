@@ -7,7 +7,7 @@ trigger:
 
 variables:
   - name: ConvertNetCore
-    value: true
+    value: false
 
 resources:
   repositories:
@@ -27,12 +27,6 @@ stages:
     stageName: WindowsBuild
 
     lvVersionsToBuild:
-      - version: '2024'
-        bitness: '64bit'
-      - version: '2025'
-        bitness: '64bit'
-      - version: '2026'
-        bitness: '64bit'
       - version: '2027'
         bitness: '64bit'
 
@@ -47,9 +41,9 @@ stages:
         target: 'All'
         buildSpec: 'Engine Release'
 
-    releaseVersion: '26.8.0'
+    releaseVersion: '27.0.0'
     buildOutputLocation: 'Built'
-    archiveLocation: '\\nirvana\Measurements\VeriStandAddons\ni_system_monitor_custom_device'
+    archiveLocation: '\\nirvana\Measurements\VeriStandAddons\netcore\ni_system_monitor_custom_device'
     repoName: 'niveristand-system-monitor-custom-device'
 
     packages:
@@ -85,9 +79,9 @@ stages:
         target: 'My Computer'
         buildSpec: 'Configuration(Linux) Release'
       
-    releaseVersion: '26.8.0'
+    releaseVersion: '27.0.0'
     branch: 'main'
     debugBuild: 'no'
     buildOutputLocation: 'Built'
-    archiveLocation: '\\nirvana\Measurements\VeriStandAddons\system_monitor_custom_device'
+    archiveLocation: '\\nirvana\Measurements\VeriStandAddons\netcore\ni_system_monitor_custom_device'
     repoName: 'niveristand-system-monitor-custom-device'
