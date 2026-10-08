@@ -2,12 +2,11 @@ trigger:
   batch: true
   branches:
     include:
-      - main
-      - release/*
+      - legacy
 
 variables:
   - name: ConvertNetCore
-    value: true
+    value: false
 
 resources:
   repositories:
@@ -22,7 +21,7 @@ stages:
 # =====================================================================
 # WINDOWS BUILD (Stage Template)
 # =====================================================================
-- template: azure-templates/stages.yml@niveristand-custom-device-build-tools
+- template: azure-templates/stages-legacy.yml@niveristand-custom-device-build-tools
   parameters:
     stageName: WindowsBuild
 
@@ -32,8 +31,6 @@ stages:
       - version: '2025'
         bitness: '64bit'
       - version: '2026'
-        bitness: '64bit'
-      - version: '2027'
         bitness: '64bit'
 
     buildSteps:
@@ -47,47 +44,12 @@ stages:
         target: 'All'
         buildSpec: 'Engine Release'
 
-    releaseVersion: '26.8.0'
+    releaseVersion: '27.0.0'
     buildOutputLocation: 'Built'
-    archiveLocation: '\\nirvana\Measurements\VeriStandAddons\ni_system_monitor_custom_device'
+    archiveLocation: '\\nirvana\Measurements\VeriStandAddons\legacy\ni_system_monitor_custom_device'
     repoName: 'niveristand-system-monitor-custom-device'
 
     packages:
       - controlFileName: 'control'
         payloadMaps:
           - installLocation: 'programdata\National Instruments\NI VeriStand $(lvVersion)\Addons\Custom Devices'
-
-# =====================================================================
-# LINUX BUILD
-# =====================================================================
-- template: azure-templates/linux-stage.yml@niveristand-custom-device-build-tools
-  parameters:
-    stageName: LinuxBuild
-
-    # If your linux-stage.yml supports these parameters:
-    dependsOn: 
-      - WindowsBuild
- 
-    lvVersionsToBuild:
-      - version: '2027'
-        bitness: '64bit'
-
-    buildSteps:
-      - id: 'system-monitor-custom-device_debug'
-        projectLocation: 'Source/System Monitor Custom Device.lvproj'
-        buildOperation: 'ExecuteBuildSpec'
-        target: 'My Computer'
-        buildSpec: 'Configuration(Linux) Debug'
-
-      - id: 'system-monitor-custom-device_release'
-        projectLocation: 'Source/System Monitor Custom Device.lvproj'
-        buildOperation: 'ExecuteBuildSpec'
-        target: 'My Computer'
-        buildSpec: 'Configuration(Linux) Release'
-      
-    releaseVersion: '26.8.0'
-    branch: 'main'
-    debugBuild: 'no'
-    buildOutputLocation: 'Built'
-    archiveLocation: '\\nirvana\Measurements\VeriStandAddons\system_monitor_custom_device'
-    repoName: 'niveristand-system-monitor-custom-device'
