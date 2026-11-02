@@ -26,8 +26,6 @@ stages:
     stageName: WindowsBuild
 
     lvVersionsToBuild:
-      - version: '2024'
-        bitness: '64bit'
       - version: '2025'
         bitness: '64bit'
       - version: '2026'
@@ -52,4 +50,4 @@ stages:
     packages:
       - controlFileName: 'control'
         payloadMaps:
-          - installLocation: 'programdata\National Instruments\NI VeriStand $(lvVersion)\Addons\Custom Devices'
+          - installLocation: 'documents\National Instruments\NI VeriStand $(lvVersion)\Custom Devices'
