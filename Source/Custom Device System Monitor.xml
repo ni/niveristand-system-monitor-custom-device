@@ -50,8 +50,12 @@
       </ActionVIOnLoad>
       <ActionVIOnCompile>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\System Monitor\Windows\System Monitor Configuration.llb\ActionVIOnCompile.vi</Path>
+        <Path>Custom Devices\System Monitor\Windows\System Monitor Configuration.llb\ActionVIOnDownload.vi</Path>
       </ActionVIOnCompile>
+	  <ActionVIOnDownload>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\System Monitor\Windows\System Monitor Configuration.llb\ActionVIOnDownload.vi</Path>
+      </ActionVIOnDownload>
     </Page>
   </Pages>
   <CustomXML>
