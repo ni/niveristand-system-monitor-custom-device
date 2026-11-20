@@ -9,15 +9,6 @@ variables:
   - name: ConvertNetCore
     value: false
 
-  - name: BranchToBuild
-    value: $[
-      iif(
-        ne(variables['System.PullRequest.SourceBranch'], ''),
-        variables['System.PullRequest.SourceBranch'],
-        variables['Build.SourceBranch']
-      )
-    ]
-
 resources:
   repositories:
     - repository: niveristand-custom-device-build-tools
@@ -92,7 +83,7 @@ stages:
             destination: 'System Monitor/Linux_x64'
       
     releaseVersion: '27.0.0'
-    branch: $(BranchToBuild)
+    branch: 'main'
     debugBuild: 'no'
     buildOutputLocation: 'Built'
     archiveLocation: '\\nirvana\Measurements\VeriStandAddons\netcore\ni_system_monitor_custom_device'
