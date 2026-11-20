@@ -78,6 +78,9 @@ stages:
         buildOperation: 'ExecuteBuildSpec'
         target: 'My Computer'
         buildSpec: 'Configuration(Linux) Release'
+        copyDependencies:
+          - source: 'System Monitor/Linux_x64'
+            destination: 'System Monitor/Linux_x64'
       
     releaseVersion: '27.0.0'
     branch: 'main'
