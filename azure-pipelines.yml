@@ -78,10 +78,13 @@ stages:
         buildOperation: 'ExecuteBuildSpec'
         target: 'My Computer'
         buildSpec: 'Configuration(Linux) Release'
+        copyDependencies:
+          - source: 'System Monitor/Linux_x64'
+            destination: 'System Monitor/Linux_x64'
       
     releaseVersion: '27.0.0'
     branch: 'main'
     debugBuild: 'no'
     buildOutputLocation: 'Built'
     archiveLocation: '\\nirvana\Measurements\VeriStandAddons\netcore\ni_system_monitor_custom_device'
-    repoName: 'niveristand-system-monitor-custom-device'
+    repoName: 'ni_system_monitor_custom_device'
